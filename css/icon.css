@@ -1,0 +1,92 @@
+/* Social Icons Config */
+/* Animation Time */
+/* General Colors */
+/* Social Site Colors */
+body {
+    background: rgba (255, 255, 255, 1);
+}
+
+    
+
+.socialIcon {
+    height: 64px;
+    width: 64px;
+}
+
+.social {
+    text-align: center;
+   
+}
+
+.socialLinks {
+    overflow: hidden;
+    *zoom: 1;
+    display: inline-block;
+    margin: 200px 0 0 0;
+}
+
+.socialLinks a {
+    display: block;
+    background: transparent;
+    border: 3px solid black;
+    float: left;
+    height: 102.4px;
+    margin: 15px;
+    position: relative;
+    -moz-transition: background 0.1s linear, border 0.1s linear;
+    -o-transition: background 0.1s linear, border 0.1s linear;
+    -webkit-transition: background 0.1s linear, border 0.1s linear;
+    transition: background 0.1s linear, border 0.1s linear;
+    width: 102.4px;
+}
+
+.socialLinks a .socialIcon {
+    left: 50%;
+    margin: -32px 0 0 -32px;
+    position: absolute;
+    top: 50%;
+}
+
+.socialLinks .behance:hover {
+    background: #E62F27;
+    border-color: #E62F27;
+}
+
+.socialLinks .twitter:hover {
+    background: #E62F27;
+    border-color: #E62F27;
+}
+
+.socialLinks .codepen:hover {
+    background: #E62F27;
+    border-color: #E62F27;
+}
+
+.socialLinks .pinterest:hover {
+    background: #E62F27;
+    border-color: #E62F27;
+}
+.heart {
+    position: absolute;
+    margin-left: 
+    
+}
+
+@media(max-width:960px) {
+
+    .socialLinks {
+        display: inline-block;
+
+        margin-left: 60px;
+        margin-top: 100px;
+        position: relative;
+    }
+    @media screen and (max-width:667px){
+        .socialLinks {
+        display:block;
+
+        
+        margin-top: 100px;
+        position: relative;
+    }
+    }
